@@ -1,0 +1,27 @@
+This is where I work on touhou fumos for skyrim, some useful information down below
+
+3d model scanning/original textures done by:
+Renafox (most models) - https://sketchfab.com/kryik1023
+scarletfumo (remilia model) - https://sketchfab.com/scarletfumo 
+
+export model from blender as .obj
+-Z forward
+Y up
+hitbox is (height, centered already)
+27/2 = 13.5 (middle, centered around neck area of fumo)
+
+use original mapped images and turn into .dds 2k textures
+2048x2048 dxt1 for texture
+2048x2048 (dxt5 for transparency layering, didn't use) for texture normal,
+dessaturate (HSV) > levels (to bring out details) > filter generic normal 50 strength
+
+some useful tutorials (as a reminder)
+https://wiki.beyondskyrim.org/wiki/Arcane_University:Blender_2.7x_Export
+https://wiki.beyondskyrim.org/wiki/Arcane_University:DDS_Data_Format
+https://wiki.beyondskyrim.org/wiki/Arcane_University:Gimp_for_Skyrim
+https://winkingskeever.com/how-to-create-static-clutter-decor-meshes-with-only-nifskope/
+
+using:
+blender 3.0 with Nif plugin (to export model as .obj and attach required xml bits and pieces for later editing in NifSkope)
+NifSkope (general Nif editing)
+NifUtilsSuite (can generate collision/hitbox from a given mesh)
