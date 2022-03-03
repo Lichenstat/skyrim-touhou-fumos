@@ -2,9 +2,9 @@
 <div  align="center"><h1> ---Skyrim Touhou Fumos--- </h1></div>
 
 <div  align="center">
-![Skyrim Touhou Fumos](https://github.com/Lichenstat/skyrim-touhou-fumos/blob/main/z%20images/skyrimtouhoufumos.jpeg?raw=true)
+<img  src="z images/skyrimtouhoufumos.jpeg"/>
 </div>
-
+<br/>
 <div  align="center">
 ### [Wanna see the fumos?](*put video here*) ###
 </div>
