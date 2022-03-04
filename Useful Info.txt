@@ -14,6 +14,7 @@ use original mapped images and turn into .dds 2k textures
 2048x2048 dxt1 for texture
 2048x2048 (dxt5 for transparency layering, didn't use) for texture normal,
 dessaturate (HSV) > levels (to bring out details) > filter generic normal 50 strength
+export and generate mipmaps for both
 
 some useful tutorials (as a reminder)
 https://wiki.beyondskyrim.org/wiki/Arcane_University:Blender_2.7x_Export
